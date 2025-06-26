@@ -1,0 +1,18 @@
+--
+
+## Usage
+- Edit `config/default_config.yaml` to add known hashes and the Fernet key.
+- Populate threat feed files under `config/threat_intel_feed/`.
+- Start the assistant:  
+  ```bash
+  python src/main.py
+  ```
+- View audit logs:  
+  ```bash
+  cat /var/log/spfa_audit.log
+  ```
+
+---
+
+## Configuration
+See `config/default_config.yaml` for default intervals, encryption settings, and permission policies.

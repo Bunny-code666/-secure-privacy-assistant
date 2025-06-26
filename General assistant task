@@ -1,0 +1,7 @@
+## Project Overview
+`secure-privacy-assistant` orchestrates a set of sandboxed agents that:
+- Perform periodic integrity checks of system components.
+- Detect anomalous behavior Agents using on-device ML models.
+- Simulate response for known attacks in an offline sandbox.
+- Govern and audit permissions for sensitive APIs.
+- Execute a Core ML spyware incident response plan.

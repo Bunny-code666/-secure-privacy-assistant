@@ -1,0 +1,4 @@
+## Security & Integrity
+- **Secure Boot Integration:** Ensures only verified code executes at startup.
+- **Cryptographic Self-Checks:** Agents verify binary hashes and configuration integrity periodically.
+- **Incident Response:** Built-in plan for Core ML model compromises, guiding containment, analysis, eradication, and recovery.
